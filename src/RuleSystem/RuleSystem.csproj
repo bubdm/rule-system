@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>MarcKing.RuleSystem</AssemblyName>
+    <RootNamespace>MarcKing.RuleSystem</RootNamespace>
+    <Authors>Marc King</Authors>
+    <Product>RuleSystem</Product>
+    <Description>A library for implementing 5th Edition rule systems.</Description>
+    <Copyright>Copyright © 2018 Marc King</Copyright>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RuleSystem.Interfaces\RuleSystem.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

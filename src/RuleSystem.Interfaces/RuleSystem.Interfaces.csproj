@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>MarcKing.RuleSystem.Interfaces</AssemblyName>
+    <RootNamespace>MarcKing.RuleSystem.Interfaces</RootNamespace>
+    <Authors>Marc King</Authors>
+    <Copyright>Copyright © 2018 Marc King</Copyright>
+    <Product>RuleSystem</Product>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+</Project>
